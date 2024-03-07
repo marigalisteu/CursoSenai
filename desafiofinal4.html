@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="img/sccp.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <hr>
+        <h2>Formulário de Inscrição</h2>
+    </header>
+    <hr>
+    <main>
+        <form method="post" action="#">
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <label>Nome:</label>
+                <input type="text" name="nome" placeholder="digite seu nome" required>
+                <label>Data de nascimento:</label>
+                <input type="date" name="data_nascimento" required>
+                <label>Telefone:</label>
+                <input type="tel" name="telefone" placeholder="(XX)XXXXX-XXXX" required>
+                <label>CPF:</label>
+                <input type="number" name="cpf" placeholder="XXX.XXX.XXX-XX" required>
+            </fieldset>
+            <fieldset>
+                <legend>Endereço</legend>
+                <label>Endereço:</label>
+                <input type="text" name="endereço" placeholder="digite seu endereço" required>
+                <label>Cidade:</label>
+                <input type="text" name="cidade" placeholder="digite sua cidade" required>
+                <label>Estado:</label>
+                <select name="estado" required>
+                    <option value="">Seu estado</option>
+                    <optgroup label="Sudeste">
+                        <option value="sao_paulo">São Paulo</option>
+                        <option value="minas_gerais">Minas Gerais</option>
+                        <option value="rio_de_janeiro">Rio de Janeiro</option>
+                    </optgroup>
+                    <optgroup label="Sul">
+                        <option value="rio_grande_do_sul">Rio Grande do Sul</option>
+                        <option value="santa_catarina">Santa Catarina</option>
+                        <option value="parana">Paraná</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Plano</legend>
+                <label for="plano1">Plano 1</label>
+                <input type="radio" name="resposta" id="Plano 1" value="1" checked required>
+                <label for="plano1">Plano 2</label>
+                <input type="radio" name="resposta" id="Plano 2" value="2" checked required>
+                <label for="plano1">Plano 3</label>
+                <input type="radio" name="resposta" id="Plano 3" value="3" checked required>
+                <label for="plano1">Plano 4</label>
+                <input type="radio" name="resposta" id="Plano 4" value="4" checked required>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Fale sobre sua paixão pelo CORINTHIANS</legend>
+                <textarea name="texto" style="resize: none" required="yes" rows="7" cols="50"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Termos de Contrato</legend>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem maiores, voluptates, unde voluptatem accusantium possimus voluptas ipsum quisquam sint aliquid ab suscipit, nulla fugiat architecto fuga alias minus quos amet!</p>
+                <form action="#">
+                    <input type="checkbox" id="checkbox-aceito" name="aceito termos de contrato[]" value="aceito"/>
+                    <label for="checkbox-aceito">Aceito termos de contrato</label>
+                    <input type="checkbox" id="checkbox-notcias" name="aceito receber noticias[]" value="noticias"/>
+                    <label for="checkbox-noticias">Aceito receber notícias</label>
+                </form>
+            </fieldset>
+            <br>
+            <button type="submit">Enviar dados</button>
+        </form>
+        <br>
+        <a href="desafiofinal.html">Voltar</a>
+    </main>
+    <hr>
+    <footer align="center">
+        Copyright 2023 &copy; - Tec.Multimídia<br>Santa Cruz do Rio Pardo - SP
+    </footer>
+</body>
+</html>
