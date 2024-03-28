@@ -32,3 +32,25 @@ li{
     margin-bottom: 10px;
     color: white;
 }
+
+/*estilizando tamanho da tabela*/
+.div_sushi{
+    text-align: center;
+}
+
+/*estilizando elementos da lista*/
+table{
+    width: 100%;
+}
+
+/*estilizando titulos da tabela*/
+td{
+    border: 1px solid white;
+    padding: 5px;
+}
+
+th{
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
