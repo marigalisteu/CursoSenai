@@ -1,0 +1,64 @@
+/*Estilizando cabeçalho*/
+header {
+    text-align: center;
+    
+}
+
+/*Estilizando a DIV da classe navegação*/
+.navegacao{
+    background-color: rgb(255, 0, 43);
+}
+
+/*Estilizando os botões*/
+button {
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    background-color: rgb(255, 0, 43);
+    padding: 1;
+}
+
+/*Estilizando o conteúdo*/
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    columns: 3;
+    text-align: center;
+}   
+
+/*Estilizando o link do título*/
+a {
+    color: black;
+}
+
+/*Estilizando o título*/
+h1 {
+    margin-top: 0;
+    margin-bottom: 10;
+    text-align: justify;
+}
+
+/*Estilizando o parágrafo*/
+p {
+    text-align: justify;
+}
+
+/*Estilizando a linha divisória*/
+hr {
+    background-color: rgb(255, 0, 43);
+    height: 15px;
+    border: 0;
+}
+
+/*Estilizando o rodapé*/
+footer {
+    text-align: center;
+    margin-top: 25px;
+}
+
+body{
+    background-color: rgb(201, 92, 173);
+}
+
+.conteudo{
+    background-color: pink;
+}
