@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap');
+    *{
+        margin: 0 auto;
+        padding: 0;
+    }
+    .menu{
+        background-color: rgb(9, 9, 10);
+        width: 100%;
+        height: 40px;
+        font-family: "Macondo Swash Caps", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .menu ul li{
+        background-color: rgb(45, 0, 33);
+        color: rgb(124, 18, 18);
+        float: left;
+        width: 100px;
+        height: 40px;
+        display: inline-block;
+        text-align: center;
+        line-height: 40px;
+        position: relative;
+    }
+    
+    .menu ul li:hover{
+        background-color:rgb(255, 0, 0);
+    }
+    .menu ul{
+        padding: 0;
+    }
+    .menu ul ul{
+        display: none;
+    }
+    menu ul li:hover > ul{
+        display: block;
+    }
+    .menu ul ul ul{
+        margin-left: 102px;
+        position: absolute;
+        top: 0px;
+    }
+    .menu ul ul li:hover{
+        background-color:rgb(166, 3, 3);
+    }
+    .menu ul ul ul li:hover{
+        background-color:rgb(227, 18, 56);
+    }
+    </style>
+</head>
+    <body>
+    <header>
+    <nav class="menu">
+        <ul class="a">
+            <li>Norte</li>
+            <li>Nordeste</li>
+            <li>Centro Oeste</li>
+            <li>Sudeste</li>
+            <li>Sul
+                <ul>
+                    <li>Rio G. Sul</li>
+                    <li>Paraná</li>
+                    <li>Sana Catarina
+                        <ul>
+                            <li>Capital</li>
+                            <li>Interior</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+</body>
+</html>
