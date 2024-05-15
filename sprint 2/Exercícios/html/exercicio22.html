@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+        body, html{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .cabe{
+            width: 100%;
+            height: 100px;
+            background-color: antiquewhite;
+        }
+
+        input{
+            width: 20%;
+            height: 30px;
+            font-size: 18px;
+            margin-bottom: 10px;
+            background-color: white;
+            border: solid black 1.5px;
+            border-radius: 10px;
+            background-image: url(img/lupa.png);
+            background-size: 10%;
+            background-repeat: no-repeat;
+            background-position: top 5px right 10px;
+            margin-top: 30px;
+            margin-right: 20px;
+            float: right;
+        }
+
+        .logo{
+            float: left;
+            text-indent: 20px;
+            width: 20%;
+        }
+
+        .cabe ul{
+            float: left;
+            width: 50%;
+            margin: 0px 0px 0px 20px;
+            line-height: 100px;
+            text-align: center;
+        }
+
+        .cabe ul li{
+            text-decoration: none;
+            display: inline;
+            padding: 20px;
+            color: rgb(14, 69, 51);
+            font-family: 'finger paint', cursive;
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+
+        .cabe ul li:hover{
+            color: darkcyan;
+        }
+
+        .box1, .box2, .box3, .box4{
+            position: relative;
+            height: 100%;
+            opacity: 0.7;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .box1{
+            background-image: url(img/gif.gif);
+        }
+
+        .box2{
+            background-image: url(img/mar4.png);
+        }
+
+        .box3{
+            background-image: url(img/mar3.webp);
+        }
+
+        .box4{
+            background-image: url(img/mar.webp);
+        }
+
+        .cont-img{
+            position: absolute;
+            top: 45%;
+            width: 100%;
+            text-align: center;
+        }
+
+        .cont-img span.titulo{
+            background-color: antiquewhite;
+            padding: 20px;
+            font-size: 20px;
+            letter-spacing: 5px;
+        }
+
+        .conteudo{
+            background-color: antiquewhite;
+            color:rgb(14, 69, 51);
+            text-align: justify;
+            padding: 50px 100px 40px 100px;
+            background-image: url(img/logo\ mar.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        h2{
+            text-transform: uppercase;
+            color: rgb(14, 69, 51);
+            text-align: center;
+        }
+
+        .roda{
+            margin-top: -20px;
+            height: 330px;
+            background-color: antiquewhite;
+        }
+
+        .roda .down_up{
+            text-align: center;
+            color: rgb(14, 69, 51);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+        .roda .down_meio{
+            text-align: center;
+            color: rgb(14, 69, 51);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1.5em;
+        }
+
+        .roda .down_down{
+            text-align: center;
+        }
+
+        .roda .down_down img{
+            width: 40px;
+            border-radius: 25px;
+            border: rgb(14, 69, 51) dotted;
+            cursor: pointer;
+            margin: 20px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cabe">
+        <div class="logo">
+            <img src="img/logo mar.jpg">
+        </div>
+        <div>
+            <ul>
+                <li>HOME</li>
+                <li>SERVIÇOS</li>
+                <li>PRODUTOS</li>
+                <li>SOBRE</li>
+            </ul>
+        </div>
+        <input class="pesq" type="text" name="pesq" placeholder="Pesquisar">
+    </div>
+    <div class="box1">
+        <div class="cont-img">
+            <span class="titulo">NATUREZA É REAL</span>
+        </div>
+    </div>
+    <div class="conteudo">
+        <h2>Lorem ipsum</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere totam voluptates consectetur dolor! Molestias eligendi commodi omnis! Omnis velit quisquam tenetur ipsa culpa obcaecati fugiat reiciendis quibusdam voluptatibus, voluptate eveniet!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam vitae reiciendis incidunt quam aspernatur provident minus id commodi unde. Dignissimos culpa corporis quidem atque hic sequi. Fuga, incidunt obcaecati?</p>
+    </div>
+    <div class="box2">
+        <div class="cont-img">
+            <span class="titulo">NATUREZA É VIVA</span>
+        </div>
+    </div>
+    <div class="conteudo">
+        <h2>Lorem ipsum</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque ea iste beatae laboriosam totam, tempora voluptates perspiciatis deserunt sequi consequatur iusto! Fugit delectus ipsum, accusantium quae ut eos nulla exercitationem!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tempora voluptate necessitatibus inventore dicta! Iste quae aliquam delectus nostrum deserunt, distinctio doloremque temporibus error beatae possimus, quasi nulla itaque tempora.</p>
+    </div>
+    <div class="box3">
+        <div class="cont-img">
+            <span class="titulo">NATUREZA É NOSSA</span>
+        </div>
+    </div>
+    <div class="box4">
+        <div class="cont-img">
+            <span class="titulo">NATUREZA É VIDA</span>
+        </div>
+    </div>
+
+    <div class="roda">
+        <br><br><br>
+        <div class="down_up">NATUREZA</div>
+        <div class="down_meio">lorem ipsum dolor sit</div>
+    </div>
+</body>
+</html>
